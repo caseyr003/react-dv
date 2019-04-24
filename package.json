@@ -1,6 +1,6 @@
 {
   "name": "react-dv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component to embed visualizations from Oracle Analytics Cloud into your React application.",
   "main": "build/index.js",
   "repository": {
