@@ -3,17 +3,6 @@ import React from "react";
 import knockout from "./knockout";
 
 class DataVisualization extends React.Component {
-  componentDidMount() {
-    this.dv.addEventListener("oracle.bitech.dataaction", this.handleDVEvent);
-  }
-
-  componentWillUnmount() {
-    this.dv.removeEventListener("oracle.bitech.dataaction", this.handleDVEvent);
-  }
-
-  handleDVEvent(event) {
-    this.props.dataActionHandler(event);
-  }
 
   render() {
     const options = {

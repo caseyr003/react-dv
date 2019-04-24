@@ -1,6 +1,6 @@
 {
   "name": "react-dv",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React component to embed visualizations from Oracle Analytics Cloud into your React application.",
   "main": "build/index.js",
   "repository": {
@@ -30,5 +30,16 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "webpack-cli": "^3.3.1"
-  }
+  },
+  "keywords": [
+    "data visualization",
+    "oracle",
+    "oracle analytics cloud",
+    "analytics cloud",
+    "dashboard",
+    "analytics",
+    "business intelligence",
+    "embed",
+    "react-dv"
+  ]
 }
