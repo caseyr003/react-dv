@@ -30,7 +30,7 @@ class DataVisualization extends React.Component {
         };
         
         return (
-            <div ref={elem => this.dv = elem} className={style} >
+            <div ref={elem => this.dv = elem} style={style} >
                 <oracle-dv 
                     project-path={this.props.path}
                     project-options={JSON.stringify(options)}
