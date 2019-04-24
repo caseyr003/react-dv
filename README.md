@@ -13,7 +13,7 @@ First import this component where you want to use it
 Next add embedding script to index.html of project
 
 ```
-<script 
+<script
     src="<oac instance url>/dv/ui/api/v1/plugins/embedding/standalone/embedding.js"
     type="application/javascript">
 </script>
@@ -25,12 +25,13 @@ Then just render it. This component requires Single Sign On to be enable between
 
 ### Props
 
-|       _Prop_       |                         _Description_                           |
-| ------------------ | :-------------------------------------------------------------: |
-| path               |          Set path to Oracle Cloud Analytics project             |
-| activeTab          |                  Select active canvas to display                |
-| showFilter         |      Determines if filtering is enabled for visualization       |
-| dataActionHandler  |    Gets event from data action if publish event is configured   |
+| _Prop_              |                       _Description_                        | _Value_       |
+| ------------------- | :--------------------------------------------------------: | ------------- |
+| path                |         Set path to Oracle Cloud Analytics project         | String        |
+| activeTab           |              Select active canvas to display               | String        |
+| showFilter          |    Determines if filtering is enabled for visualization    | Boolean       |
+| dataActionHandler   | Gets event from data action if publish event is configured | Pass Function |
+| disableMobileLayout |             Disables or enables mobile layout              | Boolean       |
 
 ### Example
 
@@ -47,7 +48,7 @@ class App extends Component {
 
   render() {
     return (
-        <DataVisualization path="oac/project/path" activeTab="1" showFilter={false} dataActionHandler={this.dataActionHandler} />
+        <DataVisualization path="oac/project/path" activeTab="1" showFilter={false} disableMobileLayout={false}  dataActionHandler={this.dataActionHandler} />
     );
   }
 }
