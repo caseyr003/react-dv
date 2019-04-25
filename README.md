@@ -4,6 +4,12 @@
 
 `npm install --save react-dv`
 
+### Which Component to Use?
+
+The `DataVisualization` component is to be used in conjunction with visualizations sourced from the Data Visualization tool from the Oracle Analytics Cloud.
+
+The `Dashboard` component is to be used in conjunction with visualization dashboards from Oracle Business Intelligence.
+
 ### How To Use Data Visualization Component
 
 First import this component where you want to use it
@@ -25,12 +31,12 @@ Then just render it. This component requires Single Sign On to be enable between
 
 ### Props
 
-| _Prop_              |                       _Description_                        | _Value_       |
-| ------------------- | :--------------------------------------------------------: | ------------- |
-| path                |         Set path to Oracle Cloud Analytics project         | String        |
-| activeTab           |              Select active canvas to display               | String        |
-| showFilter          |    Determines if filtering is enabled for visualization    | Boolean       |
-| disableMobileLayout |             Disables or enables mobile layout              | Boolean       |
+| _Prop_              |                    _Description_                     | _Value_ |
+| ------------------- | :--------------------------------------------------: | ------- |
+| path                |      Set path to Oracle Cloud Analytics project      | String  |
+| activeTab           |           Select active canvas to display            | String  |
+| showFilter          | Determines if filtering is enabled for visualization | Boolean |
+| disableMobileLayout |          Disables or enables mobile layout           | Boolean |
 
 ### Example
 
@@ -63,9 +69,9 @@ Then just render it. This component requires Single Sign On to be enable between
 
 ### Props
 
-| _Prop_              |                       _Description_                        | _Value_       |
-| ------------------- | :--------------------------------------------------------: | ------------- |
-| link                |       Prompted URL for Business Intelligence Dashboard     | String        |
+| _Prop_ |                  _Description_                   | _Value_ |
+| ------ | :----------------------------------------------: | ------- |
+| link   | Prompted URL for Business Intelligence Dashboard | String  |
 
 ### Example
 
